@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --background: #020817;
+  --foreground: #f0f9ff;
+  --font-orbitron: Orbitron, "Segoe UI", Arial, sans-serif;
+  --font-inter: Inter, "Segoe UI", Arial, sans-serif;
+  --font-jetbrains: "JetBrains Mono", "Cascadia Code", Consolas, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #020817;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: #020817;
+  color: #f0f9ff;
+}
+
+body::selection {
+  background: rgba(0, 212, 255, 0.35);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#00d4ff, #7c3aed);
+  border-radius: 3px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #f0f9ff;
+  box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.74) inset;
+  caret-color: #00d4ff;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+.bio-grid {
+  background-image:
+    linear-gradient(rgba(0, 212, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 212, 255, 0.08) 1px, transparent 1px);
+  background-size: 54px 54px;
+}
+
+.glass-panel {
+  border: 1px solid rgba(0, 212, 255, 0.15);
+  background: linear-gradient(145deg, rgba(0, 212, 255, 0.05), rgba(124, 58, 237, 0.05)), rgba(10, 22, 40, 0.8);
+  box-shadow: 0 0 30px rgba(0, 212, 255, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+}
+
+.shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.18), transparent);
+  animation: shimmer 3s infinite;
+}
+
+.scroll-progress {
+  position: fixed;
+  inset: 0 auto auto 0;
+  z-index: 80;
+  height: 2px;
+  width: var(--scroll-width, 0%);
+  background: linear-gradient(90deg, #00d4ff, #7c3aed);
+  box-shadow: 0 0 18px rgba(0, 212, 255, 0.7);
+}
+
+@media (pointer: fine) {
+  .custom-cursor,
+  .custom-cursor-ring {
+    pointer-events: none;
+    position: fixed;
+    z-index: 100;
+    border-radius: 999px;
+    transform: translate(-50%, -50%);
+  }
+
+  .custom-cursor {
+    width: 8px;
+    height: 8px;
+    background: #00d4ff;
+    box-shadow: 0 0 16px rgba(0, 212, 255, 0.9);
+  }
+
+  .custom-cursor-ring {
+    width: 34px;
+    height: 34px;
+    border: 1px solid rgba(0, 212, 255, 0.45);
+    transition: transform 120ms ease-out;
+  }
+}

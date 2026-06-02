@@ -1,0 +1,76 @@
+disease,symptom,feature_key,category,body_area,emergency_weight
+Influenza,Fever,fever,General,Whole body,0.35
+Influenza,Chills,chills,General,Whole body,0.2
+Influenza,Cough,cough,Chest,Respiratory,0.25
+Influenza,Body ache,body_ache,General,Muscles,0.2
+Influenza,Fatigue,fatigue,General,Whole body,0.15
+Migraine,Headache,headache,Head,Head,0.25
+Migraine,Nausea,nausea,Abdomen,Stomach,0.15
+Migraine,Light sensitivity,light_sensitivity,Head,Eyes,0.15
+Migraine,Dizziness,dizziness,Head,Head,0.25
+Migraine,Blurred vision,blurred_vision,Head,Eyes,0.3
+Pneumonia,Cough,cough,Chest,Respiratory,0.3
+Pneumonia,Fever,fever,General,Whole body,0.35
+Pneumonia,Shortness of breath,shortness_of_breath,Chest,Lungs,0.75
+Pneumonia,Chest pain,chest_pain,Chest,Chest,0.8
+Pneumonia,Fatigue,fatigue,General,Whole body,0.15
+COVID-19,Fever,fever,General,Whole body,0.35
+COVID-19,Cough,cough,Chest,Respiratory,0.25
+COVID-19,Loss of smell,loss_of_smell,Head,Nose,0.2
+COVID-19,Shortness of breath,shortness_of_breath,Chest,Lungs,0.75
+COVID-19,Fatigue,fatigue,General,Whole body,0.15
+Gastroenteritis,Nausea,nausea,Abdomen,Stomach,0.15
+Gastroenteritis,Vomiting,vomiting,Abdomen,Stomach,0.25
+Gastroenteritis,Diarrhea,diarrhea,Abdomen,Intestines,0.25
+Gastroenteritis,Abdominal pain,abdominal_pain,Abdomen,Abdomen,0.3
+Gastroenteritis,Fever,fever,General,Whole body,0.35
+Urinary Tract Infection,Painful urination,painful_urination,Abdomen,Urinary tract,0.25
+Urinary Tract Infection,Frequent urination,frequent_urination,Abdomen,Urinary tract,0.15
+Urinary Tract Infection,Lower abdominal pain,lower_abdominal_pain,Abdomen,Pelvis,0.25
+Urinary Tract Infection,Fever,fever,General,Whole body,0.35
+Urinary Tract Infection,Back pain,back_pain,Limbs,Back,0.25
+Asthma,Shortness of breath,shortness_of_breath,Chest,Lungs,0.75
+Asthma,Wheezing,wheezing,Chest,Lungs,0.45
+Asthma,Cough,cough,Chest,Respiratory,0.25
+Asthma,Chest tightness,chest_tightness,Chest,Chest,0.55
+Asthma,Night symptoms,night_symptoms,Chest,Respiratory,0.2
+Hypertension,Headache,headache,Head,Head,0.25
+Hypertension,Dizziness,dizziness,Head,Head,0.25
+Hypertension,Chest pain,chest_pain,Chest,Chest,0.8
+Hypertension,Blurred vision,blurred_vision,Head,Eyes,0.3
+Hypertension,Nosebleed,nosebleed,Head,Nose,0.35
+Diabetes Mellitus,Frequent urination,frequent_urination,Abdomen,Urinary tract,0.15
+Diabetes Mellitus,Excessive thirst,excessive_thirst,General,Whole body,0.2
+Diabetes Mellitus,Fatigue,fatigue,General,Whole body,0.15
+Diabetes Mellitus,Blurred vision,blurred_vision,Head,Eyes,0.3
+Diabetes Mellitus,Unexplained weight loss,unexplained_weight_loss,General,Whole body,0.35
+Anxiety Disorder,Palpitations,palpitations,Chest,Heart,0.35
+Anxiety Disorder,Sweating,sweating,Skin,Skin,0.15
+Anxiety Disorder,Tremor,tremor,Limbs,Hands,0.15
+Anxiety Disorder,Shortness of breath,shortness_of_breath,Chest,Lungs,0.75
+Anxiety Disorder,Restlessness,restlessness,Mental,Mind,0.1
+Depression,Low mood,low_mood,Mental,Mind,0.2
+Depression,Loss of interest,loss_of_interest,Mental,Mind,0.15
+Depression,Fatigue,fatigue,General,Whole body,0.15
+Depression,Sleep changes,sleep_changes,Mental,Mind,0.15
+Depression,Appetite changes,appetite_changes,General,Whole body,0.1
+Allergic Rhinitis,Sneezing,sneezing,Head,Nose,0.1
+Allergic Rhinitis,Runny nose,runny_nose,Head,Nose,0.1
+Allergic Rhinitis,Itchy eyes,itchy_eyes,Head,Eyes,0.1
+Allergic Rhinitis,Nasal congestion,nasal_congestion,Head,Nose,0.12
+Allergic Rhinitis,Cough,cough,Chest,Respiratory,0.25
+Appendicitis,Abdominal pain,abdominal_pain,Abdomen,Abdomen,0.5
+Appendicitis,Right lower abdominal pain,right_lower_abdominal_pain,Abdomen,Abdomen,0.75
+Appendicitis,Nausea,nausea,Abdomen,Stomach,0.15
+Appendicitis,Vomiting,vomiting,Abdomen,Stomach,0.25
+Appendicitis,Fever,fever,General,Whole body,0.35
+Myocardial Infarction,Chest pain,chest_pain,Chest,Heart,1
+Myocardial Infarction,Shortness of breath,shortness_of_breath,Chest,Lungs,0.75
+Myocardial Infarction,Sweating,sweating,Skin,Skin,0.15
+Myocardial Infarction,Left arm pain,left_arm_pain,Limbs,Arm,0.85
+Myocardial Infarction,Nausea,nausea,Abdomen,Stomach,0.15
+Stroke,Facial droop,facial_droop,Head,Face,1
+Stroke,Arm weakness,arm_weakness,Limbs,Arm,0.95
+Stroke,Speech difficulty,speech_difficulty,Head,Brain,1
+Stroke,Dizziness,dizziness,Head,Head,0.25
+Stroke,Blurred vision,blurred_vision,Head,Eyes,0.3
